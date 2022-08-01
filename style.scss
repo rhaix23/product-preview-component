@@ -15,7 +15,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    // border: 1px solid red;
 }
 
 body {
@@ -31,6 +30,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     height: 350px;
     width: 550px;
+	box-shadow: 0 0 4px rgba(0,0,0,.2);
 }
 
 .image {
@@ -124,6 +124,7 @@ body {
 		cursor: pointer;
 		gap: .8rem;
         transition: all .3s ease;
+		box-shadow: 0 0 2px rgba(0,0,0,.2);
 
 		&:hover{
 			background-color: hsl(158, 61%, 17%);
